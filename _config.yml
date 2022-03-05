@@ -80,22 +80,71 @@ content:
         title: 슈퍼스터디
         link: superstudy.kr
         caption: 2022.01 - 2022.02
-            # link_text: Project Website
-            #        additional_links:
-            #          - title:  sproogen/modern-resume-theme
-            #            icon: fab fa-github
-            #            url: github.com/sproogen/modern-resume-theme
-            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-            학교 생활 종합 플랫폼
-        description: | # this will include new lines to allow paragraphs
-            <mark>NestJs</mark> 기반의 <mark>백엔드 레거시 리팩토링</mark>
-            - 기존의 GraphQL로 구성되어있던 레거시 중 JOIN이 3번 이상인 쿼리를 <mark>TypeORM Query Builder</mark>를 사용하여 Rest API 형식으로 리팩토링
+          학교 생활 종합 플랫폼 <br/>
+          사용 기술 : Nest Js, TypeORM, PostgresSQL
+        description: |
+          NestJs 기반의 <mark>백엔드 레거시 리팩토링</mark>
+            - 기존의 GraphQL로 구성되어있던 레거시 중 JOIN이 3번 이상인 쿼리를 TypeORM Query Builder를 사용하여 Rest API 형식으로 리팩토링
             - <mark>쿼리 실행 계획의 시각화</mark>를 통한 쿼리 개선
             - JOIN이 3번 이하인 쿼리 중 <mark> 1 대 N의 관계로 인해 발생되는 슬로우 쿼리</mark>를 Data Loader 적용으로 <mark>1번의 쿼리로 개선</mark>
-            - 프론트에서 처리하던 <mark>데이터 정렬/필터 로직</mark>을 백엔드 쿼리 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark>
+            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark>
+
+      - layout: top-middle
+        title: 아트앤하우스
+        link: artnhouse.com
+        caption: 2021.08 - 2022.01
+        quote: >
+          인테리어 사진 및 가구 정보를 공유하는 커뮤니티 플랫폼<br/>
+          사용 기술 : Nest Js, TypeORM, PostgresSQL, React, AWS(EC2, S3, SES)
+        description: |
+          NestJs 기반의 백엔드 개발
+          - Nest Js 기반의 Http 메소드를 활용한 CRUD API 서버
+          - AWS S3를 활용한 이미지 업로드 API
+          - AWS SES를 활용한 비밀번호 찾기 이메일 전송 API
+          - TypeORM를 활용한 DB Entity
+          - NestJs @Cron과 비즈엠을 활용한 알림톡 기능
+
+          React를 활용하여 웹 클라이언트 개발
+          - 업로드된 이미지 위에 클릭한 좌표에 맞게 핀 고정 기능 구현
+
+      - layout: top-middle
+        title: PickUp(픽업)
+        caption: 2021.05 - 2021.08
+        quote: >
+          익명 유저들이 올린 퀴즈를 맞추고, 맞춘 횟수에 따라 프로필 오픈, 팔로우, 채팅이 가능한 SNS<br/>
+          사용 기술 : NestJs, TypeORM, PostgreSQL, React, AWS(EC2, S3, SES)
+        description: |
+          NestJs 기반의 백엔드 개발
+          - NestJs & Http 메소드를 활용한 CRUD API 서버
+          - AWS S3를 활용한 이미지 업로드 API
+          - AWS SES를 활용한 비밀번호 찾기 이메일 전송 API
+          - TypeORM을 활용한 DB Entity
+          - NestJs @Cron과 비즈엠을 활용한 알림톡 기능
+          
+          React, React Native를 통한 웹 앱 개발
+          - Firebase를 통한 푸시 알림 구현
+
+      - layout: top-middle
+        title: MaskOn(마스크온)
+        link: github.com/Team-Mask-On
+        caption: 2021.01 - 2021.03
+            # link_text: Project Website
+        additional_links:
+          - title:  Team-Mask-On/Mask_On
+            icon: fab fa-github
+            url: github.com/Team-Mask-On/Mask_On
+        quote: >
+          코로나-19 매장내 마스크 착용률 정보를 5분마다 측정하여 매장별로 정리하여 유저에게 제공하는 플랫폼<br/>
+          사용 기술 : Django, Docker, MySQL, AWS(RDS, EC2, Elastic Beanstalk), Grafana, Prometheus
+        description: | # this will include new lines to allow paragraphs
+          IoT 기반의 PiCamera를 통한 AI 기술을 활용한 Django 기반 API 서버 개발 및 배포
+          - Django/ Docker/ Docker-compose를 활용하여 API 서버 개발
+          - DjangoRestFramework를 이용하여 RaspberryPi에서 OpenCV와 YOLOv5를 통해 이미지에서 산출한 로그 및 센서 정보 송수신 구현
+          - Django API 서버를 Gunicorn을 활용하여 AWS EC2에 Docker 이미지로 배포
+          - AWS EC2에 배포된 서버에 Prometheus와 Grafana를 연동
+          - Postman을 통한 API document 작성을 통한 API 문서화(postman)
+
       - layout: top-middle
         title: 쉐어하우스 정보 제공 서비스(Modeul)
         link: github.com/MO-DEUL
@@ -105,9 +154,10 @@ content:
             icon: fab fa-github
             url: github.com/MO-DEUL/Mo_DEUL
         quote: >
-          단국대 주변 쉐어하우스 임대 업자와 수요자 사이에서 필요 정보를 제공해주는 서비스
+          단국대 주변 쉐어하우스 임대 업자와 수요자 사이에서 필요 정보를 제공해주는 서비스<br/>
+          사용 기술 : Django, Docker, MySQL
         description: |
-          <mark>Django</mark> 기반의 <mark>백엔드 개발</mark>
+          Django 기반의 <mark>백엔드 개발</mark>
           - Django / Docker 기반의 CRUD 기능 중심의 API 서버 개발
           - DjangoRestFramework를 활용하여  쉐어하우스 정보 게시판, 호스트 정보, 쉐어하우스 상세 정보 제공 기능 API 구현
           - Django-seed와 Faker를 통한 개발용 fake db 생성 커맨드 구현
