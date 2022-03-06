@@ -183,7 +183,7 @@ content:
   - title: Skill
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: Frontend
         description: |
           - TypeScript
