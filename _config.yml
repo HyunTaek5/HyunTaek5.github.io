@@ -161,7 +161,23 @@ content:
           - Django / Docker 기반의 CRUD 기능 중심의 API 서버 개발
           - DjangoRestFramework를 활용하여  쉐어하우스 정보 게시판, 호스트 정보, 쉐어하우스 상세 정보 제공 기능 API 구현
           - Django-seed와 Faker를 통한 개발용 fake db 생성 커맨드 구현
-
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        title: DevOps
+        description: |
+          - MySQL, PostgreSQL
+          - AWS S3, EC2, Cloud Watch
+          - Docker, Docker-compose
+          - Prometheus, Grafana
+      - layout: left
+        title: Frontend
+        description: |
+          - TypeScript
+          - Npm
+          - React
+          - TailwindCSS
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -180,16 +196,6 @@ content:
         description: |
           - 프론트부터 백엔드, 모니터링, 배포까지 엔드-투-엔드로 진행
 
-  - title: Skill
-    layout: list
-    content:
-      - layout: left
-        title: Frontend
-        description: |
-          - TypeScript
-          - Npm
-          - React
-          - TailwindCSS
 
 # Footer
 footer_show_references: true
