@@ -165,6 +165,13 @@ content:
     layout: list
     content:
       - layout: left
+        title: Backend
+        description: |
+          - TypeScript, Python
+          - NestJs, Django, Flask
+          - TypeORM
+          - socket.io
+      - layout: left
         title: DevOps
         description: |
           - MySQL, PostgreSQL
