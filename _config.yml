@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 #twitter_username: facespics
-github_username:  HyunTaek5
+github_username: HyunTaek5
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -50,12 +50,11 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   백엔드 개발자로  NestJS, Django, Flask를 활용한 API 서버를 개발 및 배포한 경험이 있습니다. 
   Docker, AWS EC2, S3 등의 기술을 활용하여 서비스를 개발하였습니다. React, TailwindCSS를 활용하여 프론트엔드 또한 구성하였던 경험이 있습니다.
-  
+
   새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 좋아합니다. 
   팀 프로젝트, 인턴쉽에서 서비스를 기획, 개발, 배포하였습니다.
-  
-  반복되는 프로세스를 코드를 통해 자동화하는 것을 좋아합니다. 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을  개선한 경험이 있습니다.
 
+  반복되는 프로세스를 코드를 통해 자동화하는 것을 좋아합니다. 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을  개선한 경험이 있습니다.
 
 content:
   - title: Experience # Title for the section
@@ -79,7 +78,7 @@ content:
       - layout: top-middle
         title: 슈퍼스터디
         link: superstudy.kr
-        caption: 2022.01 - 2022.02
+        caption: 2022.01 -
         quote: >
           학교 생활 종합 플랫폼 <br/>
           사용 기술 : Nest Js, TypeORM, PostgresSQL
@@ -121,17 +120,18 @@ content:
           - AWS SES를 활용한 비밀번호 찾기 이메일 전송 API
           - TypeORM을 활용한 DB Entity
           - NestJs @Cron과 비즈엠을 활용한 알림톡 기능
-          
+
           React, React Native를 통한 웹 앱 개발
           - Firebase를 통한 푸시 알림 구현
 
       - layout: top-middle
         title: MaskOn(마스크온)
         link: github.com/Team-Mask-On
-        caption: 2021.01 - 2021.03
-            # link_text: Project Website
+        caption:
+          2021.01 - 2021.03
+          # link_text: Project Website
         additional_links:
-          - title:  Team-Mask-On/Mask_On
+          - title: Team-Mask-On/Mask_On
             icon: fab fa-github
             url: github.com/Team-Mask-On/Mask_On
         quote: >
@@ -150,7 +150,7 @@ content:
         link: github.com/MO-DEUL
         caption: 2020.04 - 2021.02
         additional_links:
-          - title:  MO-DEUL/Mo_DEUL
+          - title: MO-DEUL/Mo_DEUL
             icon: fab fa-github
             url: github.com/MO-DEUL/Mo_DEUL
         quote: >
@@ -192,8 +192,8 @@ content:
         title: 단국대학교
         caption: 2020 - 현재(3학년 1학기 휴학중)
         sub_title: 모바일 시스템 공학과
-#        quote: >
-#        description: | # this will include new lines to allow paragraphs
+      #        quote: >
+      #        description: | # this will include new lines to allow paragraphs
       - layout: left
         title: 2021 SiliconValley HeadStarts InternShip
         caption: 2021.01.04 - 02.05
@@ -202,7 +202,6 @@ content:
           실리콘 밸리에 재직중인 Andrew Park 님 주관의 인턴쉽 및 세미나
         description: |
           - 프론트부터 백엔드, 모니터링, 배포까지 엔드-투-엔드로 진행
-
 
 # Footer
 footer_show_references: true
@@ -216,4 +215,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
