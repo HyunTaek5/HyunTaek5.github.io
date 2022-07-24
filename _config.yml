@@ -76,6 +76,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: 아이힐미 헬릭스
+        link: ihealme.link
+        caption: 2022.04 - 2022.07
+        quote: >
+          건강 습관 관리 플랫폼 <br/>
+          사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, Amplify, RDS), NHN cloud(sms), OneSignal(Push 알림)
+        description: |
+          NestJs 모노레포 기반의 백엔드 개발
+          - Nest Js 기반의 Http 메소드를 활용한 CRUD API 서버
+          - Swagger를 사용한 HTTP API 문서화
+          - AWS S3를 활용한 이미지 업로드 API
+          - NHN cloud를 사용한 sms 전화번호 인증 API
+          - TypeORM를 활용한 DB Entity
+          - NestJs @Cron과 OneSignal Push Noti를 사용한 정기 푸시 알림
+          
+          스테이지 서버 및 프로덕션 서버 AWS 세팅
+          - AWS Amplify를 사용한 프론트 자동 배포
+          - Github Action를 통한 백엔드 AWS EC2 자동 배포
+
+      - layout: top-middle
         title: 슈퍼스터디
         link: superstudy.kr
         caption: 2022.01 -
@@ -84,10 +104,10 @@ content:
           사용 기술 : Nest Js, TypeORM, PostgresSQL
         description: |
           NestJs 기반의 <mark>백엔드 레거시 리팩토링</mark>
-            - 기존의 GraphQL로 구성되어있던 레거시 중 JOIN이 3번 이상인 쿼리를 TypeORM Query Builder를 사용하여 Rest API 형식으로 리팩토링
+            - 기존의 GraphQL로 구성되어있던 레거시 중 조회되는 테이블 수가 3개 이상인 쿼리를 TypeORM Query Builder를 사용하여 HTTP 메소드 기반의 API 형식으로 리팩토링
             - <mark>쿼리 실행 계획의 시각화</mark>를 통한 쿼리 개선
-            - JOIN이 3번 이하인 쿼리 중 <mark> 1 대 N의 관계로 인해 발생되는 슬로우 쿼리</mark>를 Data Loader 적용으로 <mark>1번의 쿼리로 개선</mark>
-            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark>
+            - 조회되는 테이블 수가 3개 이하인 쿼리 중 <mark> 1 대 N의 관계로 인해 발생되는 슬로우 쿼리</mark>를 Data Loader 적용으로 <mark>1번의 쿼리로 개선</mark>
+            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 정렬/필터링 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark>
 
       - layout: top-middle
         title: 아트앤하우스
