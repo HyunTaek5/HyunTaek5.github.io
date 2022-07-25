@@ -69,7 +69,7 @@ content:
         quote: >
           스타트업 웹/앱 MVP 솔루션 & 자체 서비스 기업
         description: | # this will include new lines to allow paragraphs
-          - NestJS, TypeORM, React, PostgreSQL를 사용한 개발 경험
+          - NestJS, TypeORM, React, PostgreSQL, MySQL을 사용한 개발 경험
           - 웹 MVP 프로젝트 개발 및 참여
 
   - title: Projects # Title for the section
@@ -90,7 +90,7 @@ content:
           - NHN cloud를 사용한 sms 전화번호 인증 API
           - TypeORM를 활용한 DB Entity
           - NestJs @Cron과 OneSignal Push Noti를 사용한 정기 푸시 알림
-          
+
           스테이지 서버 및 프로덕션 서버 AWS 세팅
           - AWS Amplify를 사용한 프론트 자동 배포
           - Github Action를 통한 백엔드 AWS EC2 자동 배포
