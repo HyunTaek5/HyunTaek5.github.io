@@ -84,7 +84,7 @@ content:
           사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, Amplify, RDS), NHN cloud(sms), OneSignal(Push 알림)
         description: |
           NestJs 모노레포 기반의 백엔드 개발
-          - Nest Js 기반의 Http 메소드를 활용한 CRUD API 서버
+          - NestJs 기반의 Http 메소드를 활용한 CRUD API 서버
           - Swagger를 사용한 HTTP API 문서화
           - AWS S3를 활용한 이미지 업로드 API
           - NHN cloud를 사용한 sms 전화번호 인증 API
@@ -109,6 +109,13 @@ content:
             - 조회되는 테이블 수가 3개 이하인 쿼리 중 <mark> 1 대 N의 관계로 인해 발생되는 슬로우 쿼리</mark>를 Data Loader 적용으로 <mark>1번의 쿼리로 개선</mark>
             - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 정렬/필터링 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark>
 
+          NestJS 기반의 백엔드 추가 개발
+            - Http 메소드를 사용한 CRUD API 서버
+            - GraphQL Resolver 수정
+            - AWS S3를 활용한 Presigned 방식의 이미지 업로드
+
+          React를 활용하여 웹 클라이언트 개발
+
       - layout: top-middle
         title: 아트앤하우스
         link: artnhouse.com
@@ -118,7 +125,7 @@ content:
           사용 기술 : Nest Js, TypeORM, PostgresSQL, React, AWS(EC2, S3, SES)
         description: |
           NestJs 기반의 백엔드 개발
-          - Nest Js 기반의 Http 메소드를 활용한 CRUD API 서버
+          - NestJs 기반의 Http 메소드를 활용한 CRUD API 서버
           - AWS S3를 활용한 이미지 업로드 API
           - AWS SES를 활용한 비밀번호 찾기 이메일 전송 API
           - TypeORM를 활용한 DB Entity
@@ -195,9 +202,10 @@ content:
         title: DevOps
         description: |
           - MySQL, PostgreSQL
-          - AWS S3, EC2, Cloud Watch
+          - AWS S3, EC2, Cloud Watch, Amplify
           - Docker, Docker-compose
           - Prometheus, Grafana
+          - Github Action
       - layout: left
         title: Frontend
         description: |
