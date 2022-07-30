@@ -96,6 +96,24 @@ content:
           - Github Action를 통한 백엔드 AWS EC2 자동 배포
 
       - layout: top-middle
+        title: 링크스토리
+        link: linkstory.me
+        caption: 2022.03 - 2022.07
+        quote: >
+          해외 대학생 멘토링 플랫폼 <br/>
+          사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, SES), Stripe
+        description: |
+          NestJs 기반의 백엔드 리팩토링 & 추가 개발
+          - NestJS 7 버전 기반의 백엔드 8 버전으로 마이그레이션
+          - 7 버전 기준의 레거시 8 버전으로 리팩토링
+          - Socket을 사용한 중복 로그인 방지 기능 추가
+          - Stripe API를 활용하여 어드민 쿠폰 대시보드와 연동
+          - Stripe API 결제시 쿠폰 동시성 이슈 해결
+          - HTTP 메소드를 사용한 CRUD API 서버
+
+          React를 활용하여 웹 클라이언트 개발
+
+      - layout: top-middle
         title: 슈퍼스터디
         link: superstudy.kr
         caption: 2022.01 -
