@@ -9,7 +9,7 @@ version: 2
 name: 오현택
 title: NodeJS 백엔드 엔지니어
 email: oht1312@gmail.com
-website: https://eight20.tistory.com/
+website: https://eight20.tistory.com
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -40,7 +40,7 @@ linkedin_username: dylanoh
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
+gtm: "G-2HNCVHLKNS"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
@@ -76,9 +76,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: 어디가지
+        link: where.review
+        caption: 2022.09 - 현재
+        quote: >
+          유저가 만드는 맛집 지도 플랫폼 <br/>
+          사용 기술 : Nest Js, TypeORM, PostgresSQL, Liquibase, Docker, GraphQL
+        description: |
+          NestJs 기반의 백엔드 추가 개발
+          - Liquibase를 통한 DB 스키마 버전 관리
+          - GraphQL을 사용한 CRUD API 구현
+          - 서브쿼리 사용을 통한 조회 쿼리 개선
+          - 현재 위치의 위도/경도 기준으로 주변 장소 조회 기능 구현
+
+      - layout: top-middle
         title: 아이힐미 헬릭스
-        link: ihealme.link
-        caption: 2022.04 - 2022.07
+        link: play.google.com/store/apps/details?id=com.ihealmeapp
+        caption: 2022.04 - 현재
         quote: >
           건강 습관 관리 플랫폼 <br/>
           사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, Amplify, RDS), NHN cloud(sms), OneSignal(Push 알림)
@@ -98,10 +112,10 @@ content:
       - layout: top-middle
         title: 링크스토리
         link: linkstory.me
-        caption: 2022.03 - 2022.07
+        caption: 2022.03 - 현재
         quote: >
           해외 대학생 멘토링 플랫폼 <br/>
-          사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, SES), Stripe
+          사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, SES, ELB), Stripe
         description: |
           NestJs 기반의 백엔드 리팩토링 & 추가 개발
           - NestJS 7 버전 기반의 백엔드 8 버전으로 마이그레이션
@@ -116,16 +130,16 @@ content:
       - layout: top-middle
         title: 슈퍼스터디
         link: superstudy.kr
-        caption: 2022.01 -
+        caption: 2022.01 - 2022.07
         quote: >
           학교 생활 종합 플랫폼 <br/>
-          사용 기술 : Nest Js, TypeORM, PostgresSQL
+          사용 기술 : Nest Js, TypeORM, PostgresSQL, React, AWS(S3)
         description: |
           NestJs 기반의 <mark>백엔드 레거시 리팩토링</mark>
             - 기존의 GraphQL로 구성되어있던 레거시 중 조회되는 테이블 수가 3개 이상인 쿼리를 TypeORM Query Builder를 사용하여 HTTP 메소드 기반의 API 형식으로 리팩토링
             - <mark>쿼리 실행 계획의 시각화</mark>를 통한 쿼리 개선
             - 조회되는 테이블 수가 3개 이하인 쿼리 중 <mark> 1 대 N의 관계로 인해 발생되는 슬로우 쿼리</mark>를 Data Loader 적용으로 <mark>1번의 쿼리로 개선</mark>
-            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 정렬/필터링 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark>
+            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 정렬/필터링 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark> (로딩 시간 3초 개선)
 
           NestJS 기반의 백엔드 추가 개발
             - Http 메소드를 사용한 CRUD API 서버
@@ -220,7 +234,7 @@ content:
         title: DevOps
         description: |
           - MySQL, PostgreSQL
-          - AWS S3, EC2, Cloud Watch, Amplify
+          - AWS S3, EC2, ELB, Cloud Watch, Amplify
           - Docker, Docker-compose
           - Prometheus, Grafana
           - Github Action
