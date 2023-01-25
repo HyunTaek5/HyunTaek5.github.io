@@ -76,12 +76,30 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: 바나나 파츠
+        link: banana.parts
+        caption: 2022.11 - 현재
+        quote: >
+          부품 견적 간소화 플랫폼<br/>
+          사용 기술 : NestJs, TypeORM, MySQL, Redis, Docker, AWS (EC2, S3, Amplify, RDS), Vercel
+        description: |
+          NestJs 모노레포 기반의 백엔드 개발
+          - NestJs 기반의 Http 메소드를 활용한 CRUD API 서버
+          - Redis Queue를 사용한 순차 처리 적용
+          - Swagger를 사용한 HTTP API 문서화
+          
+          스테이지 서버 및 프로덕션 서버 AWS 세팅
+          - AWS Amplify, Vercel을 사용한 프론트 자동 배포
+          - Github Action를 통한 백엔드 AWS EC2 자동 배포
+          - Worker Instance, API Instance의 분리를 통한 고가용성 확보
+
+      - layout: top-middle
         title: 어디가지
         link: where.review
         caption: 2022.09 - 현재
         quote: >
           유저가 만드는 맛집 지도 플랫폼 <br/>
-          사용 기술 : Nest Js, TypeORM, PostgresSQL, Liquibase, Docker, GraphQL
+          사용 기술 : NestJs, TypeORM, PostgresSQL, Liquibase, Docker, GraphQL
         description: |
           NestJs 기반의 백엔드 추가 개발
           - Liquibase를 통한 DB 스키마 버전 관리
@@ -95,7 +113,7 @@ content:
         caption: 2022.04 - 현재
         quote: >
           건강 습관 관리 플랫폼 <br/>
-          사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, Amplify, RDS), NHN cloud(sms), OneSignal(Push 알림)
+          사용 기술 : NestJs, TypeORM, MySQL, AWS (EC2, S3, Amplify, RDS), NHN cloud(sms), OneSignal(Push 알림)
         description: |
           NestJs 모노레포 기반의 백엔드 개발
           - NestJs 기반의 Http 메소드를 활용한 CRUD API 서버
@@ -115,7 +133,7 @@ content:
         caption: 2022.03 - 현재
         quote: >
           해외 대학생 멘토링 플랫폼 <br/>
-          사용 기술 : Nest Js, TypeORM, MySQL, AWS (EC2, S3, SES, ELB), Stripe
+          사용 기술 : NestJs, TypeORM, MySQL, AWS (EC2, S3, SES, ELB), Stripe
         description: |
           NestJs 기반의 백엔드 리팩토링 & 추가 개발
           - NestJS 7 버전 기반의 백엔드 8 버전으로 마이그레이션
@@ -133,7 +151,7 @@ content:
         caption: 2022.01 - 2022.07
         quote: >
           학교 생활 종합 플랫폼 <br/>
-          사용 기술 : Nest Js, TypeORM, PostgresSQL, React, AWS(S3)
+          사용 기술 : NestJs, TypeORM, PostgresSQL, React, AWS(S3)
         description: |
           NestJs 기반의 <mark>백엔드 레거시 리팩토링</mark>
             - 기존의 GraphQL로 구성되어있던 레거시 중 조회되는 테이블 수가 3개 이상인 쿼리를 TypeORM Query Builder를 사용하여 HTTP 메소드 기반의 API 형식으로 리팩토링
@@ -154,7 +172,7 @@ content:
         caption: 2021.08 - 2022.01
         quote: >
           인테리어 사진 및 가구 정보를 공유하는 커뮤니티 플랫폼<br/>
-          사용 기술 : Nest Js, TypeORM, PostgresSQL, React, AWS(EC2, S3, SES)
+          사용 기술 : NestJs, TypeORM, PostgresSQL, React, AWS(EC2, S3, SES)
         description: |
           NestJs 기반의 백엔드 개발
           - NestJs 기반의 Http 메소드를 활용한 CRUD API 서버
@@ -242,8 +260,9 @@ content:
         title: Frontend
         description: |
           - TypeScript
-          - Npm
-          - React
+          - Npm, Yarn
+          - ReactJS
+          - NextJS
           - TailwindCSS
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
