@@ -86,6 +86,7 @@ content:
           NestJs 모노레포 기반의 백엔드 개발
           - NestJs 기반의 Http 메소드를 활용한 CRUD API 서버
           - Redis Queue를 사용한 순차 처리 적용
+          - TDD 적용을 통한 테스트 기반 개발 도입
           - Swagger를 사용한 HTTP API 문서화
           
           스테이지 서버 및 프로덕션 서버 AWS 세팅
