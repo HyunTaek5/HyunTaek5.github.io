@@ -49,9 +49,9 @@ gtm: "G-2HNCVHLKNS"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   백엔드 개발자로  NestJS, SpringBoot, Django, Flask를 활용한 API 서버를 개발 및 배포한 경험이 있습니다. 
-  Docker, AWS EC2, S3 등의 기술을 활용하여 서비스를 개발하였습니다. React, TailwindCSS를 활용하여 프론트엔드 또한 구성하였던 경험이 있습니다.
+  Docker, AWS EC2, S3 등의 기술을 활용하여 서비스를 개발하였습니다. NextJS, React, TailwindCSS를 활용하여 프론트엔드 또한 구성하였던 경험이 있습니다.
 
-  새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 좋아합니다. 
+  새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 선호합니다. 
   팀 프로젝트, 인턴쉽에서 서비스를 기획, 개발, 배포하였습니다.
 
   반복되는 프로세스를 코드를 통해 자동화하는 것을 좋아합니다. 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선한 경험이 있습니다.
@@ -69,12 +69,28 @@ content:
         quote: >
           스타트업 웹/앱 MVP 솔루션 & 자체 서비스 기업
         description: | # this will include new lines to allow paragraphs
-          - NestJS, TypeORM, React, PostgreSQL, MySQL을 사용한 개발 경험
-          - 웹 MVP 프로젝트 개발 및 참여
+          - NestJS, TypeORM, NextJS, React, PostgreSQL, MySQL을 사용한 개발 경험
+          - 웹 MVP 프로젝트 개발
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: 마담주
+        link: madamjoo.com
+        caption: 2023.01 - 현재
+        quote: >
+          과일 부티크 온라인 스토어<br/>
+          사용 기술 : NestJs, TypeORM, PostgreSQL, Liquibase, NextJs, React, Docker, AWS (EC2, ECR, ELB, S3, RDS), Vercel
+        description: |
+          NestJs 모노레포 기반의 백엔드 개발
+          - NestJs CRUD 패키지를 사용한 API 서버 구축
+          - Liquibase를 통한 DB 스키마 버전 관리
+          - firebase 기반의 푸시알림 로직을 플레어레인 API 기반 푸시 알림으로 리팩토링
+          
+          NextJs 기반 프론트엔드 개발
+          - PWA 구축
+
       - layout: top-middle
         title: 바나나 파츠
         link: banana.parts
@@ -131,10 +147,10 @@ content:
       - layout: top-middle
         title: 링크스토리
         link: linkstory.me
-        caption: 2022.03 - 현재
+        caption: 2022.03 - 2023.01
         quote: >
           해외 대학생 멘토링 플랫폼 <br/>
-          사용 기술 : NestJs, TypeORM, MySQL, AWS (EC2, S3, SES, ELB), Stripe
+          사용 기술 : NestJs, TypeORM, MySQL, React, AWS (EC2, S3, SES, ELB), Stripe
         description: |
           NestJs 기반의 백엔드 리팩토링 & 추가 개발
           - NestJS 7 버전 기반의 백엔드 8 버전으로 마이그레이션
