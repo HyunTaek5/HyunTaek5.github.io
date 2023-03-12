@@ -46,7 +46,7 @@ gtm: "G-2HNCVHLKNS"
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   백엔드 개발자로  NestJS, SpringBoot, Django, Flask를 활용한 API 서버를 개발 및 배포한 경험이 있습니다. 
   Docker, AWS EC2, S3 등의 기술을 활용하여 서비스를 개발하였습니다. NextJS, React, TailwindCSS를 활용하여 프론트엔드 또한 구성하였던 경험이 있습니다.
