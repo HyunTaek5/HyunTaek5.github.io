@@ -194,11 +194,11 @@ content:
           <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>PostgresSQL</mark>, <mark>React</mark>, <mark>AWS(S3)</mark>, <mark>GraphQL</mark>
         link: superstudy.kr
         description: |
-          NestJs 기반의 <mark>백엔드 레거시 리팩토링</mark>
+          NestJs 기반의 백엔드 레거시 리팩토링
             - 기존의 GraphQL로 구성되어있던 레거시 중 조회되는 테이블 수가 3개 이상인 쿼리를 TypeORM Query Builder를 사용하여 HTTP 메소드 기반의 API 형식으로 리팩토링
-            - <mark>쿼리 실행 계획의 시각화</mark>를 통한 쿼리 개선
-            - 조회되는 테이블 수가 3개 이하인 쿼리 중 <mark> 1 대 N의 관계로 인해 발생되는 슬로우 쿼리</mark>를 Data Loader 적용으로 <mark>1번의 쿼리로 개선</mark>
-            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 정렬/필터링 방식으로 전환하여 <mark>프론트엔드 성능 개선</mark> (로딩 시간 3초 개선)
+            - 쿼리 실행 계획의 시각화를 통한 쿼리 개선
+            - 조회되는 테이블 수가 3개 이하인 쿼리 중 1 대 N의 관계로 인해 발생되는 슬로우 쿼리를 Data Loader 적용으로 1번의 쿼리로 개선
+            - 프론트에서 처리하던 데이터 정렬/필터 로직을 백엔드 쿼리 정렬/필터링 방식으로 전환하여 프론트엔드 성능 개선 (로딩 시간 3초 개선)
 
           NestJS 기반의 백엔드 추가 개발
             - Http 메소드를 사용한 CRUD API 서버
