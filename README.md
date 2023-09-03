@@ -1,8 +1,9 @@
 # How to Start
 
+```bash
     $ bundle install
     $ bundle exec jekyll serve
-
+```
     http://localhost:4000 로 접속
 
 ## 출처
