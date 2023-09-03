@@ -189,10 +189,10 @@ content:
         link: linkstory.me
         caption:
         description: |
-          NestJs 기반의 백엔드 리팩토링 및 신규 기능 개발
-          - NestJS 7 버전 기반의 백엔드 8 버전으로 마이그레이션
-          - 7 버전 기준의 레거시 8 버전으로 리팩토링
-          - Socket을 사용한 중복 로그인 방지 기능 추가
+          NestJs 기반 백엔드 리팩토링 및 신규 기능 개발
+          - NestJS 7 버전 기반 백엔드 8 버전으로 마이그레이션
+          - 7 버전 기준 레거시 8 버전으로 리팩토링
+          - Socket을 사용한 중복 로그인 방지 기능 구현
           
           Stripe 구독 개발
           - Stripe API 어드민 쿠폰 대시보드와 연동
