@@ -91,7 +91,7 @@ content:
           - 가상계좌 결제 승인 로직 리팩토링
   
           스테이지 / 프로덕션 환경 배포
-          - AWS S3, Cloudfront 기반의 프론트 CD
+          - AWS S3, Cloudfront 환경의 프론트 CD
           - Github Action 기반 백엔드 CD
 
       - layout: left
