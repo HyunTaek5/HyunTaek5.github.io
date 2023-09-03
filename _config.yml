@@ -245,7 +245,6 @@ content:
           - 업로드된 이미지 위에 클릭한 좌표에 맞게 핀 고정 기능 구현
 
       - layout: left
-        border: weak
         title: PickUp(픽업)
         sub_title: >
           익명 유저들이 올린 퀴즈를 맞추고, 맞춘 횟수에 따라 프로필 오픈, 팔로우, 채팅이 가능한 SNS <br/> 2021.05 - 2021.08 </br>
