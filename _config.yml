@@ -47,13 +47,12 @@ gtm: "G-2HNCVHLKNS"
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  백엔드 개발자로  NestJS, SpringBoot, Django, Flask를 활용한 API 서버를 개발 및 배포한 경험이 있습니다. 
-  Docker, AWS EC2, S3 등의 기술을 활용하여 서비스를 개발하였습니다. NextJS, React, TailwindCSS를 활용하여 프론트엔드 또한 구성하였던 경험이 있습니다.
+  3년차 백엔드 개발자로 NestJS / SpringBoot 기반 백엔드 플랫폼 개발, NextJS, React, TailwindCSS를 활용하여 프론트엔드 개발, 
+  Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 다수의 서비스를 런칭한 경험이 있습니다.
 
-  새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 선호합니다. 
-  팀 프로젝트, 인턴쉽에서 서비스를 기획, 개발, 배포하였습니다.
-
-  반복되는 프로세스를 코드를 통해 자동화하는 것을 좋아합니다. 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선한 경험이 있습니다.
+  새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 선호합니다.
+  
+  반복되는 프로세스를 코드를 통해 자동화하는 것을 선호하여 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선하였습니다. 
 
 content:
   - title: Experience # Title for the section
@@ -68,9 +67,11 @@ content:
         quote: >
           웹/앱 MVP 솔루션 스타트업
         description: | # this will include new lines to allow paragraphs
-          - NestJS, TypeORM, NextJS, React, PostgreSQL, MySQL 개발 경험
-          - 웹 MVP 프로젝트 개발
+          - NestJs 기반 백엔드 개발/운영
+          - NextJs 기반 프론트엔드 개발
           - 사내 프로젝트 킷 개선
+            - Winston 기반 로깅 시스템 구축
+            - 이메일 발송 관리 시스템 개선
 
   - title: Services # Title for the section
     layout: list # Type of content section (list/text)
@@ -87,8 +88,13 @@ content:
         link: energydelivery.co.kr
         description: |
           NestJs 멀티모듈 기반 백엔드 개발
-          - 공동구매 정산 시스템 구현
-          - 가상계좌 결제 승인 로직 리팩토링
+          - 공동구매 정산 시스템 API/배치 구현
+          - Redis를 사용하여 가상계좌 결제 승인 리팩토링
+          - Prisma를 사용한 DB 스키마 관리
+          
+          Redis Queue를 사용한 메세지 기반 푸시 알림 비동기 발송
+          - NHN cloud 기반 SMS/이메일/알림톡 발송 구현
+          - OneSignal 기반 푸시 알림 구현
   
           스테이지 / 프로덕션 환경 배포
           - AWS S3, Cloudfront 환경의 프론트 CD
@@ -106,8 +112,8 @@ content:
         link: onfu.kr
         description: |
           NestJs 멀티모듈 기반 백엔드 개발
-          - NestJs CRUD 패키지로 추상화되어있던  API 서버 리팩토링
-          - Liquibase를 통한 DB 스키마 버전 관리
+          - NestJs CRUD 모듈로 추상화되어있던 API 서버 리팩토링
+          - Liquibase 기반 DB 스키마 버전 관리
           - firebase 기반 푸시알림 로직을 플레어레인 API 기반 푸시 알림으로 리팩토링
           
           NextJs 기반 프론트엔드 개발
@@ -166,12 +172,11 @@ content:
         link: play.google.com/store/apps/details?id=com.ihealmeapp
         description: |
           NestJs 멀티모듈 기반 백엔드 개발
-          - NestJs 기반 Http 메소드 API 서버
+          - NestJs 기반 Http 메소드 API 서버 개발
           - Swagger HTTP API 문서화
-          - AWS S3를 활용한 이미지 업로드 API
-          - NHN cloud sms 전화번호 인증 API
-          - TypeORM DB Entity
-          - NestJs 스케줄러와 OneSignal Push Noti를 사용한 정기 푸시 알림
+          - AWS S3를 활용한 이미지 업로드 API 구현
+          - NHN cloud sms 전화번호 인증 API 구현
+          - NestJs 스케줄러와 OneSignal Push Noti를 사용한 정기 푸시 알림 구현
 
           스테이지 / 프로덕션 환경 세팅
           - AWS Amplify를 사용한 프론트 CD
@@ -192,7 +197,7 @@ content:
           NestJs 기반 백엔드 리팩토링 및 신규 기능 개발
           - NestJS 7 버전 기반 백엔드 8 버전으로 마이그레이션
           - 7 버전 기준 레거시 8 버전으로 리팩토링
-          - Socket을 사용한 중복 로그인 방지 기능 구현
+          - Socket/Nest Gateways를 사용한 중복 로그인 방지 기능 구현
           
           Stripe 구독 개발
           - Stripe API 어드민 쿠폰 대시보드와 연동
@@ -201,7 +206,7 @@ content:
 
           React 웹클라이언트 개발
           - 동시 접속 방지 구현
-          - Ably 채팅 구현
+          - Ably 기반 채팅 구현
 
       - layout: left
         border: weak
@@ -238,8 +243,7 @@ content:
           - NestJs 기반 Http 메소드를 활용한 CRUD API 서버
           - AWS S3를 활용한 이미지 업로드 API
           - AWS SES를 활용한 비밀번호 찾기 이메일 전송 API
-          - TypeORM를 활용한 DB Entity
-          - NestJs @Cron과 비즈엠을 활용한 알림톡 기능
+          - NestJs @Cron과 비즈엠을 활용한 알림톡 발송 구현
 
           React 웹 클라이언트 개발
           - 업로드된 이미지 위에 클릭한 좌표에 맞게 핀 고정 기능 구현
@@ -253,11 +257,10 @@ content:
           <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>PostgreSQL</mark>, <mark>React</mark>, <mark>AWS(EC2, S3, SES)</mark>
         description: |
           NestJs 기반 백엔드 개발
-          - NestJs 기반 Http 메소드 API 서버
-          - AWS S3 이미지 업로드 API
-          - AWS SES 비밀번호 찾기 이메일 전송 API
-          - TypeORM DB Entity
-          - NestJs 스케줄러와 비즈엠을 활용한 알림톡 기능
+          - NestJs 기반 Http 메소드 API 서버 개발
+          - AWS S3 이미지 업로드 API 구현
+          - AWS SES 비밀번호 찾기 이메일 전송 API 구현
+          - NestJs 스케줄러와 비즈엠을 활용한 알림톡 발송 구현
 
           React, React Native를 통한 웹 앱 개발
           - Firebase를 통한 푸시 알림 구현
