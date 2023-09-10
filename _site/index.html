@@ -21,7 +21,7 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"></head>
-<body class="dark"><div class="container header-container">
+<body class=""><div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>오현택</h1>
@@ -47,21 +47,77 @@
 </div>
 <main class="page-content" aria-label="Content">
     <div class="wrapper"><div class="container intro-container">
-  <h3 id="about-me">About Me</h3>
+  <h3 id="summary">Summary</h3>
   <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
         <span class="profile-img" style="background-image: url(/images/profile.png)"></span>
       </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <p>3년차 백엔드 개발자로 NestJS / SpringBoot 기반 백엔드 플랫폼 개발, NextJS, React, TailwindCSS를 활용하여 프론트엔드 개발, 
 Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 다수의 서비스를 런칭한 경험이 있습니다.</p>
 
-<p>새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 선호합니다.</p>
+<p>새로운 기술 및 지식을 습득하고, 프로젝트 개발에 적용하여 목표를 달성하는 것을 좋아합니다. 팀 프로젝트, 인턴쉽에서 서비스를 기획, 개발, 배포하였습니다.</p>
 
-<p>반복되는 프로세스를 코드를 통해 자동화하는 것을 선호하여 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선하였습니다.</p>
+<p>반복되는 프로세스를 코드를 통해 자동화하는 것을 좋아합니다. 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선한 경험이 있습니다.</p>
 
     </div>
   </div>
 </div>
 
+          <div class="container list-container">
+            <h3 id="skill">Skill</h3>
+            
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="backend">Backend</h4><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
+  <li>TypeScript, Java, Python</li>
+  <li>NestJs, SpringBoot, Django, Flask</li>
+  <li>TypeORM, Spring Data JPA</li>
+  <li>socket.io</li>
+</ul>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="devops">DevOps</h4><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
+  <li>MySQL, PostgreSQL</li>
+  <li>AWS S3, EC2, ELB, Cloud Watch, Amplify</li>
+  <li>Docker, Docker-compose</li>
+  <li>Prometheus, Grafana</li>
+  <li>Github Action</li>
+</ul>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-left border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="frontend">Frontend</h4><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
+  <li>TypeScript</li>
+  <li>Npm, Yarn</li>
+  <li>ReactJS</li>
+  <li>NextJS</li>
+  <li>TailwindCSS</li>
+</ul>
+
+    </div>
+  </div>
+
+
+          </div>
+        
           <div class="container list-container">
             <h3 id="experience">Experience</h3>
             
@@ -104,6 +160,7 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 멀티모듈 기반 백엔드 개발</p>
 <ul>
   <li>공동구매 정산 시스템 API/배치 구현</li>
+  <li>이지페이 기반 가상계좌 결제 구현</li>
   <li>Redis를 사용하여 가상계좌 결제 승인 리팩토링</li>
   <li>Prisma를 사용한 DB 스키마 관리</li>
 </ul>
@@ -131,11 +188,12 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
         
       </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 멀티모듈 기반 백엔드 개발</p>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 멀티모듈 기반 백엔드 리팩토링</p>
 <ul>
   <li>NestJs CRUD 모듈로 추상화되어있던 API 서버 리팩토링</li>
-  <li>Liquibase 기반 DB 스키마 버전 관리</li>
+  <li>PG사 모듈 기반 결제를 포트원 API 기반 결제로 리팩토링</li>
   <li>firebase 기반 푸시알림 로직을 플레어레인 API 기반 푸시 알림으로 리팩토링</li>
+  <li>Liquibase 기반 DB 스키마 버전 관리</li>
 </ul>
 
 <p>NextJs 기반 프론트엔드 개발</p>
@@ -154,7 +212,7 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
 
   <div class="row clearfix layout layout-left border-weak">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="바나나-파츠">바나나 파츠</h4><p><b>부품 견적 간소화 플랫폼<br/> 2022.11 - 현재 </br> </br> 사용 기술 </br> <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>MySQL</mark>, <mark>Docker</mark>, <mark>Redis</mark>, <mark> AWS (EC2, S3, Amplify, RDS)</mark>, <mark>Vercel</mark>
+      <h4 id="바나나-파츠">바나나 파츠</h4><p><b>정밀 가공 부품 포털 서비스 <br/> 2022.11 - 현재 </br> </br> 사용 기술 </br> <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>MySQL</mark>, <mark>Docker</mark>, <mark>Redis</mark>, <mark>Jest</mark>, <mark>Mockito</mark>, <mark> AWS (EC2, S3, Amplify, RDS)</mark>, <mark>Vercel</mark>
 </b></p>
 <a href="//banana.parts" target="_blank" class="link">banana.parts</a><p class="no-print aditional-links">
         
@@ -163,7 +221,7 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 멀티모듈 기반 백엔드 개발</p>
 <ul>
   <li>Redis Queue를 사용한 메세지 기반 순차 처리 적용</li>
-  <li>TDD 적용을 통한 테스트 기반 개발 도입</li>
+  <li>Jest, Mockito를 활용한 핵심 비즈니스 로직의 TDD 도입</li>
   <li>Swagger를 사용한 HTTP API 문서화</li>
 </ul>
 
@@ -406,62 +464,6 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
   <li>Django / Docker 기반의 CRUD 기능 중심의 API 서버 개발</li>
   <li>DjangoRestFramework를 활용하여  쉐어하우스 정보 게시판, 호스트 정보, 쉐어하우스 상세 정보 제공 기능 API 구현</li>
   <li>Django-seed와 Faker를 통한 개발용 fake db 생성 커맨드 구현</li>
-</ul>
-
-    </div>
-  </div>
-
-
-          </div>
-        
-          <div class="container list-container">
-            <h3 id="skill">Skill</h3>
-            
-  <div class="row clearfix layout layout-left border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="backend">Backend</h4><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
-  <li>TypeScript, Java, Python</li>
-  <li>NestJs, SpringBoot, Django, Flask</li>
-  <li>TypeORM, Spring Data JPA</li>
-  <li>socket.io</li>
-</ul>
-
-    </div>
-  </div>
-
-  <div class="row clearfix layout layout-left border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="devops">DevOps</h4><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
-  <li>MySQL, PostgreSQL</li>
-  <li>AWS S3, EC2, ELB, Cloud Watch, Amplify</li>
-  <li>Docker, Docker-compose</li>
-  <li>Prometheus, Grafana</li>
-  <li>Github Action</li>
-</ul>
-
-    </div>
-  </div>
-
-  <div class="row clearfix layout layout-left border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="frontend">Frontend</h4><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><ul>
-  <li>TypeScript</li>
-  <li>Npm, Yarn</li>
-  <li>ReactJS</li>
-  <li>NextJS</li>
-  <li>TailwindCSS</li>
 </ul>
 
     </div>

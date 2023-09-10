@@ -12,7 +12,7 @@ email: oht1312@gmail.com
 website: https://eight20.tistory.com
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 #twitter_username: facespics
@@ -44,17 +44,44 @@ gtm: "G-2HNCVHLKNS"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Summary
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   3년차 백엔드 개발자로 NestJS / SpringBoot 기반 백엔드 플랫폼 개발, NextJS, React, TailwindCSS를 활용하여 프론트엔드 개발, 
   Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 다수의 서비스를 런칭한 경험이 있습니다.
 
-  새로운 기술 및 지식을 습득하고, 프로젝트 개발 혹은 기획 과정에 적용하여 최적화하는 것을 선호합니다.
+  새로운 기술 및 지식을 습득하고, 프로젝트 개발에 적용하여 목표를 달성하는 것을 좋아합니다. 팀 프로젝트, 인턴쉽에서 서비스를 기획, 개발, 배포하였습니다.
   
-  반복되는 프로세스를 코드를 통해 자동화하는 것을 선호하여 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선하였습니다. 
+  반복되는 프로세스를 코드를 통해 자동화하는 것을 좋아합니다. 프로젝트 환경 세팅의 자동화를 통해 프로젝트 세팅에 소요되는 시간을 개선한 경험이 있습니다.
 
 content:
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+        description: |
+          - TypeScript, Java, Python
+          - NestJs, SpringBoot, Django, Flask
+          - TypeORM, Spring Data JPA
+          - socket.io
+      - layout: left
+        title: DevOps
+        description: |
+          - MySQL, PostgreSQL
+          - AWS S3, EC2, ELB, Cloud Watch, Amplify
+          - Docker, Docker-compose
+          - Prometheus, Grafana
+          - Github Action
+      - layout: left
+        title: Frontend
+        description: |
+          - TypeScript
+          - Npm, Yarn
+          - ReactJS
+          - NextJS
+          - TailwindCSS
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -89,6 +116,7 @@ content:
         description: |
           NestJs 멀티모듈 기반 백엔드 개발
           - 공동구매 정산 시스템 API/배치 구현
+          - 이지페이 기반 가상계좌 결제 구현
           - Redis를 사용하여 가상계좌 결제 승인 리팩토링
           - Prisma를 사용한 DB 스키마 관리
           
@@ -111,10 +139,11 @@ content:
           <mark>React</mark>, <mark>Docker</mark>, <mark>AWS (EC2, ECR, ELB, S3, RDS, SQS)</mark>, <mark>Vercel</mark>
         link: onfu.kr
         description: |
-          NestJs 멀티모듈 기반 백엔드 개발
+          NestJs 멀티모듈 기반 백엔드 리팩토링
           - NestJs CRUD 모듈로 추상화되어있던 API 서버 리팩토링
-          - Liquibase 기반 DB 스키마 버전 관리
+          - PG사 모듈 기반 결제를 포트원 API 기반 결제로 리팩토링
           - firebase 기반 푸시알림 로직을 플레어레인 API 기반 푸시 알림으로 리팩토링
+          - Liquibase 기반 DB 스키마 버전 관리
           
           NextJs 기반 프론트엔드 개발
           - PWA 구축
@@ -127,15 +156,15 @@ content:
         border: weak
         title: 바나나 파츠
         sub_title: >
-          부품 견적 간소화 플랫폼<br/> 2022.11 - 현재 </br>
+          정밀 가공 부품 포털 서비스 <br/> 2022.11 - 현재 </br>
           </br>
           사용 기술 </br>
-          <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>MySQL</mark>, <mark>Docker</mark>, <mark>Redis</mark>, <mark> AWS (EC2, S3, Amplify, RDS)</mark>, <mark>Vercel</mark>
+          <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>MySQL</mark>, <mark>Docker</mark>, <mark>Redis</mark>, <mark>Jest</mark>, <mark>Mockito</mark>, <mark> AWS (EC2, S3, Amplify, RDS)</mark>, <mark>Vercel</mark>
         link: banana.parts
         description: |
           NestJs 멀티모듈 기반 백엔드 개발
           - Redis Queue를 사용한 메세지 기반 순차 처리 적용
-          - TDD 적용을 통한 테스트 기반 개발 도입
+          - Jest, Mockito를 활용한 핵심 비즈니스 로직의 TDD 도입
           - Swagger를 사용한 HTTP API 문서화
           
           스테이지 / 프로덕션 환경 세팅
@@ -334,33 +363,6 @@ content:
           - Django / Docker 기반의 CRUD 기능 중심의 API 서버 개발
           - DjangoRestFramework를 활용하여  쉐어하우스 정보 게시판, 호스트 정보, 쉐어하우스 상세 정보 제공 기능 API 구현
           - Django-seed와 Faker를 통한 개발용 fake db 생성 커맨드 구현
-
-  - title: Skill
-    layout: list
-    content:
-      - layout: left
-        title: Backend
-        description: |
-          - TypeScript, Java, Python
-          - NestJs, SpringBoot, Django, Flask
-          - TypeORM, Spring Data JPA
-          - socket.io
-      - layout: left
-        title: DevOps
-        description: |
-          - MySQL, PostgreSQL
-          - AWS S3, EC2, ELB, Cloud Watch, Amplify
-          - Docker, Docker-compose
-          - Prometheus, Grafana
-          - Github Action
-      - layout: left
-        title: Frontend
-        description: |
-          - TypeScript
-          - Npm, Yarn
-          - ReactJS
-          - NextJS
-          - TailwindCSS
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
