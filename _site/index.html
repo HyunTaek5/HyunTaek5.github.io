@@ -105,6 +105,13 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
 <ul>
   <li>공동구매 정산 시스템 API/배치 구현</li>
   <li>Redis를 사용하여 가상계좌 결제 승인 리팩토링</li>
+  <li>Prisma를 사용한 DB 스키마 관리</li>
+</ul>
+
+<p>Redis Queue를 사용한 메세지 기반 푸시 알림 비동기 발송</p>
+<ul>
+  <li>NHN cloud 기반 SMS/이메일/알림톡 발송 구현</li>
+  <li>OneSignal 기반 푸시 알림 구현</li>
 </ul>
 
 <p>스테이지 / 프로덕션 환경 배포</p>
@@ -198,12 +205,11 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 멀티모듈 기반 백엔드 개발</p>
 <ul>
-  <li>NestJs 기반 Http 메소드 API 서버</li>
+  <li>NestJs 기반 Http 메소드 API 서버 개발</li>
   <li>Swagger HTTP API 문서화</li>
-  <li>AWS S3를 활용한 이미지 업로드 API</li>
-  <li>NHN cloud sms 전화번호 인증 API</li>
-  <li>TypeORM DB Entity</li>
-  <li>NestJs 스케줄러와 OneSignal Push Noti를 사용한 정기 푸시 알림</li>
+  <li>AWS S3를 활용한 이미지 업로드 API 구현</li>
+  <li>NHN cloud sms 전화번호 인증 API 구현</li>
+  <li>NestJs 스케줄러와 OneSignal Push Noti를 사용한 정기 푸시 알림 구현</li>
 </ul>
 
 <p>스테이지 / 프로덕션 환경 세팅</p>
@@ -227,7 +233,7 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
 <ul>
   <li>NestJS 7 버전 기반 백엔드 8 버전으로 마이그레이션</li>
   <li>7 버전 기준 레거시 8 버전으로 리팩토링</li>
-  <li>Socket을 사용한 중복 로그인 방지 기능 구현</li>
+  <li>Socket/Nest Gateways를 사용한 중복 로그인 방지 기능 구현</li>
 </ul>
 
 <p>Stripe 구독 개발</p>
@@ -240,7 +246,7 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
 <p>React 웹클라이언트 개발</p>
 <ul>
   <li>동시 접속 방지 구현</li>
-  <li>Ably 채팅 구현</li>
+  <li>Ably 기반 채팅 구현</li>
 </ul>
 
     </div>
@@ -285,8 +291,7 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
   <li>NestJs 기반 Http 메소드를 활용한 CRUD API 서버</li>
   <li>AWS S3를 활용한 이미지 업로드 API</li>
   <li>AWS SES를 활용한 비밀번호 찾기 이메일 전송 API</li>
-  <li>TypeORM를 활용한 DB Entity</li>
-  <li>NestJs @Cron과 비즈엠을 활용한 알림톡 기능</li>
+  <li>NestJs @Cron과 비즈엠을 활용한 알림톡 발송 구현</li>
 </ul>
 
 <p>React 웹 클라이언트 개발</p>
@@ -306,10 +311,10 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 기반 백엔드 개발</p>
 <ul>
-  <li>NestJs 기반 Http 메소드 API 서버</li>
-  <li>AWS S3 이미지 업로드 API</li>
-  <li>AWS SES 비밀번호 찾기 이메일 전송 API</li>
-  <li>NestJs 스케줄러와 비즈엠을 활용한 알림톡 기능</li>
+  <li>NestJs 기반 Http 메소드 API 서버 개발</li>
+  <li>AWS S3 이미지 업로드 API 구현</li>
+  <li>AWS SES 비밀번호 찾기 이메일 전송 API 구현</li>
+  <li>NestJs 스케줄러와 비즈엠을 활용한 알림톡 발송 구현</li>
 </ul>
 
 <p>React, React Native를 통한 웹 앱 개발</p>
@@ -326,6 +331,38 @@ Github Actions, Jenkins를 이용한 CI/CD, AWS 인프라 구축을 하면서 �
           <div class="container list-container">
             <h3 id="personal-projects">Personal Projects</h3>
             
+  <div class="row clearfix layout layout-left border-weak">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="그님레-그래서-님-레이팅이-어떻게-되세요">그님레 (그래서 님 레이팅이 어떻게 되세요?)</h4><p><b>WoT(World of Tanks) 전적/레이팅 시각화 제공 서비스<br/> 2022.10 - 현재 </br> </br> 사용 기술 </br> <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>PostgreSQL</mark>,  <mark>Redis</mark>, <mark>Docker</mark>, <mark>Docker-Compose</mark>, <mark>Grafana</mark>, <mark>Prometheus</mark>
+</b></p>
+<a href="//github.com/GeNimRe" target="_blank" class="link">github.com/GeNimRe</a><p class="no-print aditional-links">
+        
+          
+<a href="//github.com/GeNimRe/server" target="_blank" class="">
+            <i class="fab fa-github" title="GeNimRe-Server"></i>
+          </a>
+        
+          
+<a href="//github.com/GeNimRe/discord-bot" target="_blank" class="">
+            <i class="fab fa-github" title="GeNimRe-Discord-Client"></i>
+          </a>
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>NestJs 멀티모듈 기반 백엔드 개발</p>
+<ul>
+  <li>Wargaming API 기반 공식 레이팅 계산 배치 구현</li>
+  <li>전적 데이터 기반 커뮤니티 비공식 레이팅(WN8) 계산 배치 구현</li>
+  <li>Redis를 활용한 중복 유저 전적 조회 관련 캐시 적용</li>
+</ul>
+
+<p>discord.js 기반 디스코드 봇 클라이언트 개발</p>
+
+<p>Prometheus, Grafana를 활용한 서버 리소스 모니터링 적용</p>
+
+    </div>
+  </div>
+
   <div class="row clearfix layout layout-left border-weak">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="maskon-마스크온">MaskOn(마스크온)</h4><p><b>코로나-19 매장내 마스크 착용률 정보를 5분마다 측정하여 매장별로 정리하여 유저에게 제공하는 플랫폼<br/> 2021.01 - 2021.03 </br> </br> 사용 기술 </br> <mark>Django</mark>, <mark>Docker</mark>, <mark>MySQL</mark>, <mark>AWS(RDS, EC2, Elastic Beanstalk)</mark>, <mark>Grafana</mark>, <mark>Prometheus</mark>

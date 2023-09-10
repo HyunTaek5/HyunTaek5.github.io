@@ -270,6 +270,34 @@ content:
     content:
       - layout: left
         border: weak
+        title: 그님레 (그래서 님 레이팅이 어떻게 되세요?)
+        sub_title: >
+          WoT(World of Tanks) 전적/레이팅 시각화 제공 서비스<br/> 2022.10 - 현재 </br>
+          </br>
+          사용 기술 </br>
+          <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>PostgreSQL</mark>, 
+          <mark>Redis</mark>, <mark>Docker</mark>, <mark>Docker-Compose</mark>,
+          <mark>Grafana</mark>, <mark>Prometheus</mark>
+        link: github.com/GeNimRe
+        additional_links:
+          - title: GeNimRe-Server
+            icon: fab fa-github
+            url: github.com/GeNimRe/server
+          - title: GeNimRe-Discord-Client
+            icon: fab fa-github
+            url: github.com/GeNimRe/discord-bot
+        description: | # this will include new lines to allow paragraphs
+          NestJs 멀티모듈 기반 백엔드 개발
+          - Wargaming API 기반 공식 레이팅 계산 배치 구현
+          - 전적 데이터 기반 커뮤니티 비공식 레이팅(WN8) 계산 배치 구현
+          - Redis를 활용한 중복 유저 전적 조회 관련 캐시 적용
+          
+          discord.js 기반 디스코드 봇 클라이언트 개발
+          
+          Prometheus, Grafana를 활용한 서버 리소스 모니터링 적용
+
+      - layout: left
+        border: weak
         title: MaskOn(마스크온)
         sub_title: >
           코로나-19 매장내 마스크 착용률 정보를 5분마다 측정하여 매장별로 정리하여 유저에게 제공하는 플랫폼<br/> 2021.01 - 2021.03 </br>
