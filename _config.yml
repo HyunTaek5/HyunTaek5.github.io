@@ -64,7 +64,6 @@ content:
           - TypeScript, Java, Python
           - NestJs, SpringBoot, Django, Flask
           - TypeORM, Spring Data JPA
-          - socket.io
       - layout: left
         title: DevOps
         description: |
@@ -72,12 +71,10 @@ content:
           - AWS S3, EC2, ELB, Cloud Watch, Amplify
           - Docker, Docker-compose
           - Prometheus, Grafana
-          - Github Action
       - layout: left
         title: Frontend
         description: |
           - TypeScript
-          - Npm, Yarn
           - ReactJS
           - NextJS
           - TailwindCSS
@@ -96,8 +93,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           - NestJs 기반 백엔드 개발/운영
           - NextJs 기반 프론트엔드 개발
-          - 사내 프로젝트 킷 개선
-            - Winston 기반 로깅 시스템 구축
+          - 사내 프로젝트 개선
+            - Winston 기반 로깅/모니터링 시스템 구축
+            - Docker 기반 무중단 배포 자동화 구축
             - 이메일 발송 관리 시스템 개선
 
   - title: Services # Title for the section
@@ -207,8 +205,11 @@ content:
         description: |
           NestJs 기반 백엔드 신규 기능 개발
           - Liquibase를 통한 DB 스키마 버전 관리
-          - 서브쿼리 사용을 통한 조회 쿼리 개선
+          - 위치 기반 장소 조회 쿼리 개선
           - 현재 위치의 위도/경도 기준으로 주변 장소 조회 기능 구현
+          
+          NestJs GraphQL 기반 API 서버 리팩토링
+          - GraphQL 기반 API 서버를 HTTP 메소드 기반 API 서버로 리팩토링
 
       - layout: left
         border: weak
@@ -280,42 +281,6 @@ content:
             - AWS S3를 활용한 Presigned 방식의 이미지 업로드
 
           React 웹 클라이언트 개발
-
-      - layout: left
-        border: weak
-        title: 아트앤하우스
-        sub_title: >
-          인테리어 사진 및 가구 정보를 공유하는 커뮤니티 플랫폼<br/> 2021.08 - 2022.01 </br>
-          </br>
-          사용 기술 </br>
-          <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>PostgreSQL</mark>, <mark>React</mark>, <mark>AWS(EC2, S3, SES)</mark>
-        link: artnhouse.com
-        description: |
-          NestJs 기반 백엔드 개발
-          - NestJs 기반 Http 메소드를 활용한 CRUD API 서버
-          - AWS S3를 활용한 이미지 업로드 API
-          - AWS SES를 활용한 비밀번호 찾기 이메일 전송 API
-          - NestJs @Cron과 비즈엠을 활용한 알림톡 발송 구현
-
-          React 웹 클라이언트 개발
-          - 업로드된 이미지 위에 클릭한 좌표에 맞게 핀 고정 기능 구현
-
-      - layout: left
-        title: PickUp(픽업)
-        sub_title: >
-          익명 유저들이 올린 퀴즈를 맞추고, 맞춘 횟수에 따라 프로필 오픈, 팔로우, 채팅이 가능한 SNS <br/> 2021.05 - 2021.08 </br>
-          </br>
-          사용 기술 </br>
-          <mark>NestJs</mark>, <mark>TypeORM</mark>, <mark>PostgreSQL</mark>, <mark>React</mark>, <mark>AWS(EC2, S3, SES)</mark>
-        description: |
-          NestJs 기반 백엔드 개발
-          - NestJs 기반 Http 메소드 API 서버 개발
-          - AWS S3 이미지 업로드 API 구현
-          - AWS SES 비밀번호 찾기 이메일 전송 API 구현
-          - NestJs 스케줄러와 비즈엠을 활용한 알림톡 발송 구현
-
-          React, React Native를 통한 웹 앱 개발
-          - Firebase를 통한 푸시 알림 구현
 
   - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
